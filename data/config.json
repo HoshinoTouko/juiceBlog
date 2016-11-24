@@ -1,0 +1,20 @@
+{
+    "title": "TestBlogTitle",
+    "intro": "This is a short introduction of this blog.",
+    "url": "http:\/\/juiceblog.dev",
+    "plugins": [
+        "Markdown-pip",
+        "Template"
+    ],
+    "posts": [
+        "local@md://post1",
+        "local@html://post2",
+        "remote@md://https://gayhub.com/"
+    ],
+
+
+
+    "Home": {
+        "postPerPage": 10
+    }
+}
